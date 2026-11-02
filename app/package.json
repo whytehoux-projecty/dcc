@@ -1,0 +1,21 @@
+{
+  "name": "dc-consulting-site",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node tools/prepare-seed.js",
+    "export": "node tools/export-static.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/libre-franklin": "^5.3.0"
+  }
+}
